@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2BB8481B260FC70057098C /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB8471B260FC70057098C /* BezierPathView.m */; };
 		8BAF341A1B22032600211D0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF34191B22032600211D0C /* main.m */; };
 		8BAF341D1B22032600211D0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF341C1B22032600211D0C /* AppDelegate.m */; };
 		8BAF34201B22032600211D0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF341F1B22032600211D0C /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B2BB8461B260FC70057098C /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		8B2BB8471B260FC70057098C /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 		8BAF34141B22032600211D0C /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BAF34181B22032600211D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BAF34191B22032600211D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 			children = (
 				8BAF341E1B22032600211D0C /* ViewController.h */,
 				8BAF341F1B22032600211D0C /* ViewController.m */,
+				8B2BB8461B260FC70057098C /* BezierPathView.h */,
+				8B2BB8471B260FC70057098C /* BezierPathView.m */,
 				8BAF34211B22032600211D0C /* Main.storyboard */,
 				8BAF343D1B220A5700211D0C /* DropitBehavior.h */,
 				8BAF343E1B220A5700211D0C /* DropitBehavior.m */,
@@ -226,6 +231,7 @@
 			files = (
 				8BAF34201B22032600211D0C /* ViewController.m in Sources */,
 				8BAF343F1B220A5700211D0C /* DropitBehavior.m in Sources */,
+				8B2BB8481B260FC70057098C /* BezierPathView.m in Sources */,
 				8BAF341D1B22032600211D0C /* AppDelegate.m in Sources */,
 				8BAF341A1B22032600211D0C /* main.m in Sources */,
 			);
@@ -422,6 +428,7 @@
 				8BAF34391B22032600211D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BAF343A1B22032600211D0C /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				8BAF343C1B22032600211D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
